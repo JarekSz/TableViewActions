@@ -12,6 +12,8 @@
 		DE78D04C20CD5B7D0017648D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE78D04A20CD5B7D0017648D /* Main.storyboard */; };
 		DE78D04E20CD5B7D0017648D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE78D04D20CD5B7D0017648D /* Assets.xcassets */; };
 		DE78D05120CD5B7D0017648D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE78D04F20CD5B7D0017648D /* LaunchScreen.storyboard */; };
+		DE78D05A20CD61610017648D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78D05820CD61610017648D /* TableViewCell.swift */; };
+		DE78D05B20CD61610017648D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE78D05920CD61610017648D /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE78D04D20CD5B7D0017648D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE78D05020CD5B7D0017648D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE78D05220CD5B7D0017648D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE78D05820CD61610017648D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DE78D05920CD61610017648D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				DE78D04620CD5B7D0017648D /* AppDelegate.swift */,
 				DE78D04820CD5B7D0017648D /* ViewController.swift */,
 				DE78D04A20CD5B7D0017648D /* Main.storyboard */,
+				DE78D05820CD61610017648D /* TableViewCell.swift */,
+				DE78D05920CD61610017648D /* TableViewCell.xib */,
 				DE78D04D20CD5B7D0017648D /* Assets.xcassets */,
 				DE78D04F20CD5B7D0017648D /* LaunchScreen.storyboard */,
 				DE78D05220CD5B7D0017648D /* Info.plist */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE78D05120CD5B7D0017648D /* LaunchScreen.storyboard in Resources */,
+				DE78D05B20CD61610017648D /* TableViewCell.xib in Resources */,
 				DE78D04E20CD5B7D0017648D /* Assets.xcassets in Resources */,
 				DE78D04C20CD5B7D0017648D /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE78D05A20CD61610017648D /* TableViewCell.swift in Sources */,
 				DE78D04920CD5B7D0017648D /* ViewController.swift in Sources */,
 				DE78D04720CD5B7D0017648D /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT9NXMR82Q;
 				INFOPLIST_FILE = TableViewActions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JaroslawSzymczyk.TableViewActions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT9NXMR82Q;
 				INFOPLIST_FILE = TableViewActions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JaroslawSzymczyk.TableViewActions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
