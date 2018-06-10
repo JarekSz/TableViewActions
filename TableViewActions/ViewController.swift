@@ -61,12 +61,12 @@ class ViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let delete = UITableViewRowAction(style: .default, title: "delete", handler: {(action, index) in
-            
+            print("delete action")
         })
         delete.backgroundColor = .blue
         
         let add = UITableViewRowAction(style: .default, title: "add", handler: {(action, index) in
-            
+            print("add action")
         })
         add.backgroundColor = .green
         
@@ -78,12 +78,12 @@ class ViewController: UIViewController, UITableViewDataSource {
         var configActions = UISwipeActionsConfiguration()
         
         let delete = UIContextualAction(style: .normal, title: "delete", handler: {(_, _, completionHandler) in
-            print("delete")
+            print("delete swipe action")
         })
         delete.backgroundColor = .blue
         
         let add = UIContextualAction(style: .normal, title: "add", handler: {(_, _, completionHandler) in
-            print("add")
+            print("add swipe action")
         })
         add.backgroundColor = .green
         
@@ -100,12 +100,12 @@ class ViewController: UIViewController, UITableViewDataSource {
         var configActions = UISwipeActionsConfiguration()
         
         let delete = UIContextualAction(style: .normal, title: "delete", handler: {(_, _, completionHandler) in
-            print("delete")
+            print("delete swipe action")
         })
         delete.backgroundColor = .blue
         
         let add = UIContextualAction(style: .normal, title: "add", handler: {(_, _, completionHandler) in
-            print("add")
+            print("add swipe action")
         })
         add.backgroundColor = .green
 
